@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1e8eb;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  justify-content: space-around;
+}
+ul li a {
+  padding: 30px;
+  text-decoration: none;
+  color: orangered;
+  font-size: larger;
+}
+span {
+  color: red;
+}
+
+img {
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+  height: 400px;
+}
+
+h3 {
+  color: rgb(44, 57, 75);
+  padding: 2px;
+}
+.nav{
+  display: flex;
+}
